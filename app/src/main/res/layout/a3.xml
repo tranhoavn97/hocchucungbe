@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_chu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif"
+        android:text="Ââ"
+        android:textColor="#fd0419"
+        android:textSize="80dp" />
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/o1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/anh3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a2_2" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:id="@+id/chu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anh3"
+            android:text="Con Trâu"
+            android:textColor="#FFF"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:id="@+id/o2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/anh4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a2_4" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:id="@+id/chu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anh4"
+            android:text="Chim Bồ Câu"
+            android:textColor="#FFF"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

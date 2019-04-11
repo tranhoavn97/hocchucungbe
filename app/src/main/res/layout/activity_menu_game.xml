@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dem"
+    tools:context=".MenuGameActivity">
+
+    <ImageView
+        android:id="@+id/btn_home"
+        android:background="@drawable/btn_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="#fa0317"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:id="@+id/tv_tieude"
+        android:text="Chọn Trò Chơi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tro1"
+            android:background="@drawable/tro1"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@+id/tro1"
+            android:id="@+id/tro2"
+            android:background="@drawable/tro2"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

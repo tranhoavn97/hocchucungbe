@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dem"
+    tools:context=".TroChoiActivity">
+
+    <ImageView
+        android:id="@+id/btn_home"
+        android:background="@drawable/btn_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_right"
+        android:background="@drawable/btn_right"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:fontFamily="serif"
+        android:textColor="#fa0317"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/tv_tieude"
+        android:text="Có mấy quả đây bé ơi?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dem_qua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_home"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="5"
+        android:textColor="#fa0317"
+        android:textSize="50dp" />
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/trai_quyt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/im_trai_quyt"
+            android:background="@drawable/tangerines"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:layout_toRightOf="@id/im_trai_quyt"
+            android:id="@+id/im_trai_quyt2"
+            android:background="@drawable/tangerines"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:layout_toRightOf="@id/im_trai_quyt2"
+            android:id="@+id/im_trai_quyt3"
+            android:background="@drawable/tangerines"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:layout_toRightOf="@id/im_trai_quyt3"
+            android:id="@+id/im_trai_quyt4"
+            android:background="@drawable/tangerines"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:layout_toRightOf="@id/im_trai_quyt4"
+            android:id="@+id/im_trai_quyt5"
+            android:background="@drawable/tangerines"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/radius_button"
+            android:text="3"
+            android:textColor="#FFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn_1"
+            android:background="@drawable/radius_button"
+            android:text="4"
+            android:textColor="#FFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn_2"
+            android:background="@drawable/radius_button"
+            android:text="5"
+            android:textColor="#FFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn_3"
+            android:background="@drawable/radius_button"
+            android:text="6"
+            android:textColor="#FFF"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
